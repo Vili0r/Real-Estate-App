@@ -32,8 +32,8 @@ return [
     ],
     
     'bayut' => [
-        'X-RapidAPI-Host' => 'bayut.p.rapidapi.com',
-        'X-RapidAPI-Key' => 'a93562e483msh5e7685936415f1fp19061djsn5302c733213f'
+        'X-RapidAPI-Host' => env('RAPID_API_HOST'),
+        'X-RapidAPI-Key' => env('RAPID_API_KEY')
     ],
 
 ];
